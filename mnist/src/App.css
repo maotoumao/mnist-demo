@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group{
+  margin: 3vmin;
+  display: flex;
+}
+
+.btn-group>:first-child {
+  margin-right: 5vmin;
+}
+
+canvas {
+  border: 1px solid red
+}
