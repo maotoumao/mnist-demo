@@ -14,5 +14,6 @@ export default defineConfig({
     exclude: [
       'onnxruntime-web'
     ]
-  }
+  },
+  base: '/mnist-demo/'
 })
